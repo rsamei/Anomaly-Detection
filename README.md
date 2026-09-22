@@ -20,8 +20,7 @@ client and is not in this repository.
 I fitted logistic regression, random forest, isolation forest and XGBoost. Random forest
 and XGBoost came out best, so I stacked them: their posterior probabilities go into a
 final logistic regression, and the positive class is called at a threshold of 0.4 rather
-than 0.5, because missing a failure costs more here than checking a machine that turns
-out to be fine.
+than the default 0.5.
 
 ## Files
 
